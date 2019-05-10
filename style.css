@@ -1,0 +1,86 @@
+.intro {
+  width: 45%;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.photo {
+  margin: 0;
+  padding: 50px 0;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.photo figcaption {
+  color: #999;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.timeline {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 0;
+  list-style-type: none;
+}
+
+.event {
+  width: 50%;
+  text-align: right;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+.right {
+  text-align: left;
+  margin-left: auto;
+}
+
+/* Another way to create the zig-zag pattern
+is to use the nth-child pseudo class */
+/* .event:nth-child(even) {
+  text-align: left;
+  margin-left: auto;
+} */
+
+.year {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.description {
+  padding: 10px 20px;
+}
+
+.more {
+  padding: 50px 0 100px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.quote {
+  width: 50%;
+  color: #999;
+  margin: 0 auto 70px;
+  padding-left: 20px;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.6;
+  border-left: 8px solid #eeeeee;
+}
+
+.quote p {
+  text-align: right;
+}
+
+.button {
+  color: white;
+  padding: 20px 30px;
+  font-weight: bold;
+  text-decoration: unset;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: black;
+  border-radius: 30px;
+}
